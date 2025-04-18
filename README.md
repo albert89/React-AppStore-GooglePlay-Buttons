@@ -1,26 +1,24 @@
-React AppStore GooglePlay Buttons
+# React AppStore GooglePlay Buttons
+
 A simple React component to display download buttons for Google Play and the App Store, with support for light/dark themes and customizable/localized text.
 
-🖼 Visual Example
-![Example of Google Play and App Store buttons](./assets/buttons-example.png)
+## 🖼 Visual Example
 
-🚀 Installation
+![Example of Google Play and App Store buttons](/assets/buttons-example.png)
+
+## 🚀 Installation
+
 Using npm:
 
-bash
-Copia
-Modifica
+```bash
 npm install react-appstore-googleplay-buttons
+
 Or with yarn:
 
-bash
-Copia
-Modifica
 yarn add react-appstore-googleplay-buttons
+
 📾 Usage
-jsx
-Copia
-Modifica
+
 import StoreButton from 'react-appstore-googleplay-buttons';
 
 <StoreButton
@@ -50,19 +48,21 @@ import StoreButton from 'react-appstore-googleplay-buttons';
   text="Download on the"
   appStoreAppId="yourAppStoreAppId"
 />
+
+
 ⚙️ Props
 
-Prop	Type	Description
-store	string	"Google Play" or "App Store"
-theme	string	"light" or "dark"
-text	string	Text to display above the store name (e.g., "GET IT ON")
-googlePlayPackageId	string	(required for Google Play) Android package ID
-appStoreAppId	string	(required for App Store) iOS App ID
+Prop | Type | Description
+store | string | "Google Play" or "App Store"
+theme | string | "light" or "dark"
+text | string | Text to display above the store name (e.g., "GET IT ON")
+googlePlayPackageId | string | (required for Google Play) Android package ID
+appStoreAppId | string | (required for App Store) iOS App ID
+
 🌍 Localization
 You can pass a pre-localized string or a custom label for the button text.
 
-
 🧑‍💻 Author
-Alberto Bovi
-📧 alberto.bovi@gmail.com
-🌐 MIT License
+Alberto Bovi 📧 alberto.bovi@gmail.com 🌐
+
+MIT License
