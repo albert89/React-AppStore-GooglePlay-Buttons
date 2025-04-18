@@ -4,7 +4,7 @@ A simple React component to display download buttons for Google Play and the App
 
 ## 🖼 Visual Example
 
-![Example of Google Play and App Store buttons](/assets/buttons-example.png)
+![Example of Google Play and App Store buttons](src/assets/buttons-example.png)
 
 ## 🚀 Installation
 
