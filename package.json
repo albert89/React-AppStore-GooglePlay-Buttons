@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "React component to display App Store and Google Play download buttons with custom text.",
   "type": "module",
-  "main": "dist/index.html",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
