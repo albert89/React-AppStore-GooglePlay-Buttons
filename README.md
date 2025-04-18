@@ -62,7 +62,16 @@ appStoreAppId | string | (required for App Store) iOS App ID
 🌍 Localization
 You can pass a pre-localized string or a custom label for the button text.
 
+To Run Locally:
+
+Install the dependencies:
+npm install
+
+Run the development server:
+npm run dev
+
 🧑‍💻 Author
-Alberto Bovi 📧 alberto.bovi@gmail.com 🌐
+Alberto Bovi
+📧 alberto.bovi@gmail.com 
 
 MIT License
