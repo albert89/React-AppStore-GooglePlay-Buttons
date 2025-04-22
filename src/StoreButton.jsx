@@ -1,6 +1,6 @@
-import googlePlayIcon from '../assets/stores/google-play-icon.svg';
-import appStoreIcon from '../assets/stores/apple-icon.svg';
-import appStoreIconLight from '../assets/stores/apple-light-icon.svg';
+import googlePlayIcon from './assets/stores/google-play-icon.svg';
+import appStoreIcon from './assets/stores/apple-icon.svg';
+import appStoreIconLight from './assets/stores/apple-light-icon.svg';
 
 
 function StoreButton({store, theme, text, googlePlayPackageId, appStoreAppId}){
